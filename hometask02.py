@@ -8,7 +8,7 @@ for i in range(len(s1)):
     q.append(s1[i])
 
 answer = 'Yes, this is palyndrome'
-for i in range(len(q)//2):
+for i in range(len(q.queue)//2):
     if q.pop() != q.popleft():
         answer = 'Not a palyndrome'
 
